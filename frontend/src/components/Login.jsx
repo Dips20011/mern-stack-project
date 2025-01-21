@@ -69,7 +69,7 @@ function Login() {
 
             {/* Button */}
             <div className="flex justify-around mt-6">
-              <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
+              <button className="bg-blue-500 text-white rounded-md px-3 py-1 hover:bg-blue-700 duration-200">
                 Login
               </button>
               <p className=' text-black'>
