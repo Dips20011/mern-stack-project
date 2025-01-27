@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import banner from "../../public/Banner.png";
-
 function Banner() {
-    return (
-        <>
-            <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
+  return (
+    <>
+      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
           <div className="space-y-8">
             <h1 className="text-2xl md:text-4xl font-bold">
@@ -29,7 +28,7 @@ function Banner() {
               <input type="text" className="grow" placeholder="Email" />
             </label>
           </div>
-          <button className="btn mt-6 border-blue-500 btn-secondary bg-blue-500">Get Started</button>
+          <button className="btn mt-6 border-blue-500 btn-secondary bg-blue-500"><a href="/courses">Get Started</a></button>
         </div>
         <div className=" order-1 w-full mt-20 md:w-1/2">
           <img
@@ -39,8 +38,8 @@ function Banner() {
           />
         </div>
       </div>
-        </>
-    )
+    </>
+  );
 }
 
-export default Banner
+export default Banner;
